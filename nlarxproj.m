@@ -2,10 +2,10 @@
 clear 
 close all
 
-%% load data
-load('iddata-16.mat');
+%% load data as object of type iddata from the System Identification toolbox
+load('_____');
 
-%%
+%% set the parameters according to the matlab narx model
 m = 2;
 na = 1;
 nb = 4;
